@@ -143,6 +143,7 @@
 .carousel-item
 {
     text-align: center;
+    bottom: 15px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon 

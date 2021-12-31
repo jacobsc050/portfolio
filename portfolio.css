@@ -1,0 +1,301 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+#body
+{
+    background-color: rgb(245, 245, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Verdana, sans-serif;
+    width: 100%;
+}
+ /* navbar  */
+#navbar
+{
+    position: fixed;
+    z-index:2;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.308);
+}
+.navbar-brand
+{
+    padding: 0 22.5% 0 0;
+}
+#navbarDropdown
+{
+    float: right;
+}
+.nav-button
+{
+    padding: 0 0 1% 0; 
+}
+.github, .linkedIn
+{
+    position:relative;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 20%;
+    float: right;
+    
+}
+#github
+{
+    block-size: 90%;
+    margin: 0 -80% 0 0
+}
+
+#logos
+{
+    position: relative;
+    float: left;
+}
+
+/* background photo */
+.picture
+{
+    z-index:0;
+    position: relative;
+}
+#nameDescription
+{
+    position: absolute;
+    margin: 10% 0 0 37.5%;
+}
+#name
+{
+    position: relative;
+
+}
+#description
+{
+    position: absolute;
+    left: 15%;
+}
+
+/* about me */
+.container
+{
+    background-color: rgba(123, 189, 255, 0.080);
+}
+#col-sm1
+{
+    border-top: 6px solid transparent; 
+    border-left: 6px solid transparent; 
+    border-bottom: 6px solid transparent;
+    border-right: 3px solid white;  
+}
+#col-sm2
+{
+    border-top: 6px solid white; 
+    border-left: 3px solid white; 
+    border-bottom: 6px solid white;
+    border-right: 3px solid white;
+    text-align:center;
+}
+#col-sm3
+{
+    border-top: 6px solid white; 
+    border-left: 3px solid white; 
+    border-bottom: 6px solid white;
+    border-right: 6px solid white;
+    text-align:center;
+    
+}
+.text
+{
+    padding: 45% 0 0 0;
+}
+#heading1
+{
+    text-align:center;
+}
+/* skills */
+.container2
+{
+    background-color: rgba(123, 189, 255, 0.080);
+    width: 75%;
+    margin: 0 0 0 12.5%;
+    border: 3px solid white;
+}
+#skill
+{
+    background-color: transparent;
+    border: none;
+    text-align:center;
+}
+.row
+{
+    padding:10px;
+}
+.writings
+{
+    text-align: center;
+}
+.skillsTitle
+{
+    position: relative;
+    text-align: center
+}
+#icons
+{
+    position: relative;
+}
+.carousel-item
+{
+    text-align: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon 
+{
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+/*portfolio*/
+.works
+{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.selection
+{
+    width: 75%;
+    padding: 0 0 0 36.5%;
+}
+ul#breadcrumb li
+{
+    display: inline;
+}
+#breadcrumb-item
+{
+    list-style-type: none;
+    position: relative;
+    background-color: transparent;
+    border: 0px;
+}
+.container3
+{
+    width: 75%;
+    margin: 0 0 0 12.5%;
+}
+.embedly-card
+{
+    text-align:center;
+    background-color: rgba(123, 189, 255, .16);
+    padding:  10px 10px 8.2px 10px;
+    border: 1px solid white;
+}
+#link
+{
+    color:black;
+}
+/* resume */
+container5
+{
+    width: 100%;
+    position:relative;
+}
+.downRes
+{
+    position:relative;
+    background-color: transparent;
+    width: 100%;
+}
+#resumeDownloadable
+{
+    position: absolute;
+    text-align: center;
+    margin: 10px 0 0 30%;
+    
+
+}
+#resume
+{
+    position: relative;
+    z-index: 1;
+    
+}
+#resumeButton
+{
+    position: relative;
+    z-index: 1;
+}
+#quote
+{
+    position: relative;
+    z-index: 1;
+    font-size: 25px;
+}
+/* experience */
+.experience
+{
+    position: relative;
+    width: 60%;
+}
+.exp
+{
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.card
+{
+    position: relative;
+    left: 35%;
+    padding: 10px;
+}
+
+.card-body
+{
+    background-color: rgba(0, 0, 0, 0.075);
+}
+/*get in touch*/
+.container4
+{
+    background-color: rgba(123, 189, 255, 0.080);
+    width: 80%;
+    margin: 0 0 0 10%;
+    border: 3px solid white;
+}
+.getInTouch
+{
+    width: 100%;
+    background-color:transparent;
+}
+.forms
+{
+    position: relative;
+    text-align: center;
+    background-color: rgba(123, 189, 255, 0.164);
+    border: 1px solid black;
+    width: 50%;
+    left: 25%;
+}
+.textBox
+{
+    position: relative;
+    width:80%;
+}
+
+.subBut
+{
+    position: relative;
+    left: 34.33%;
+    margin: 10px;
+}
+#subBtn
+{
+    float: right;
+    margin: 0 0 10px 0;
+}
+/*footer*/
+.footer
+{
+    color: grey;
+    text-align: center;
+}
+

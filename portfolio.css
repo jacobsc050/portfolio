@@ -199,6 +199,9 @@ ul#breadcrumb li
 {
     width: 100%;
     position:relative;
+    text-align: center;
+   
+  
 }
 .downRes
 {
@@ -232,10 +235,24 @@ ul#breadcrumb li
     
 }
 /* experience */
+.exp
+{
+    position: relative;
+    width: 90%;
+    text-align: center;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
 .experience
 {
     position: relative;
-    width: 60%;
+    width: 90%;
+    text-align: center;
+    
+    margin-right: auto;
+    margin-left: auto;
+  
 }
 
 

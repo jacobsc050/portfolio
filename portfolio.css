@@ -63,6 +63,7 @@
     left:50%;
     top:20%;
     -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 
 }
 
@@ -211,6 +212,7 @@ ul#breadcrumb li
     left:50%;
     top:50%;
     -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 #resume
 {
@@ -227,7 +229,7 @@ ul#breadcrumb li
 {
     position: relative;
     z-index: 1;
-    font-size: 25px;
+    
 }
 /* experience */
 .experience
@@ -235,17 +237,7 @@ ul#breadcrumb li
     position: relative;
     width: 60%;
 }
-.exp
-{
-    text-align: center;
-    padding: 10px 0 0 0;
-}
-.card
-{
-    position: relative;
-    left: 35%;
-    padding: 10px;
-}
+
 
 .card-body
 {

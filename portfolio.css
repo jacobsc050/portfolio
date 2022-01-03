@@ -8,6 +8,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Verdana, sans-serif;
     width: 100%;
 }
+#no_padding
+{
+    padding: 0;
+}
  /* navbar  */
 #navbar
 {
@@ -51,31 +55,23 @@
 }
 
 /* background photo */
-.picture
-{
-    z-index:0;
-    position: relative;
-}
-#nameDescription
+.nameDescription
 {
     position: absolute;
-    margin: 10% 0 0 37.5%;
-}
-#name
-{
-    position: relative;
+    left:50%;
+    top:20%;
+    transform: translate(-50%, -50%);
 
 }
-#description
-{
-    position: absolute;
-    left: 15%;
-}
+
 
 /* about me */
 .container
 {
     background-color: rgba(123, 189, 255, 0.080);
+    position: relative;
+    text-align: center;
+
 }
 #col-sm1
 {
@@ -196,7 +192,7 @@ ul#breadcrumb li
     color:black;
 }
 /* resume */
-container5
+.container
 {
     width: 100%;
     position:relative;
@@ -210,8 +206,10 @@ container5
 #resumeDownloadable
 {
     position: absolute;
-    text-align: center;
-    margin: 10px 0 0 30%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    
     
 
 }

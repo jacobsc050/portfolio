@@ -239,24 +239,28 @@ ul#breadcrumb li
 {
     position: relative;
     width: 90%;
-    -webkit-text-align: center;
-    -webkit-margin-right: auto;
-    -webkit-margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .experience
 {
     position: relative;
     width: 90%;
-    -webkit-text-align: center;
-    -webkit-margin-right: auto;
-    -webkit-margin-left: auto;
-  
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
 .card-body
 {
     background-color: rgba(0, 0, 0, 0.075);
+    border: 3px solid white;
+}
+.card-header
+{
+    border: 3px solid white;
 }
 /*get in touch*/
 .container4

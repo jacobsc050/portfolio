@@ -239,19 +239,17 @@ ul#breadcrumb li
 {
     position: relative;
     width: 90%;
-    text-align: center;
-    
-    margin-right: auto;
-    margin-left: auto;
+    -webkit-text-align: center;
+    -webkit-margin-right: auto;
+    -webkit-margin-left: auto;
 }
 .experience
 {
     position: relative;
     width: 90%;
-    text-align: center;
-    
-    margin-right: auto;
-    margin-left: auto;
+    -webkit-text-align: center;
+    -webkit-margin-right: auto;
+    -webkit-margin-left: auto;
   
 }
 

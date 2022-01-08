@@ -83,7 +83,7 @@
 .container
 {
     background-color: rgba(123, 189, 255, 0.080);
-    border-color: rgb(69,69,69);
+    border-color: rgba(69,69,69,1.0);
     position: relative;
     text-align: center;
     
@@ -94,23 +94,23 @@
     border-top: 6px solid transparent; 
     border-left: 6px solid transparent; 
     border-bottom: 6px solid transparent;
-    border-right: 3px solid rgb(69,69,69);  
+    border-right: 3px solid rgba(69,69,69,1.0);  
 
 }
 #col-sm2
 {
-    border-top: 6px solid rgb(69,69,69); 
-    border-left: 3px solid rgb(69,69,69); 
-    border-bottom: 6px solid rgb(69,69,69);
-    border-right: 3px solid rgb(69,69,69);
+    border-top: 6px solid rgba(69,69,69,1.0); 
+    border-left: 3px solid rgba(69,69,69,1.0); 
+    border-bottom: 6px solid rgba(69,69,69,1.0);
+    border-right: 3px solid rgba(69,69,69,1.0);
     text-align:center;
 }
 #col-sm3
 {
-    border-top: 6px solid rgb(69,69,69); 
-    border-left: 3px solid rgb(69,69,69); 
-    border-bottom: 6px solid rgb(69,69,69);
-    border-right: 6px solid rgb(69,69,69);
+    border-top: 6px solid rgba(69,69,69,1.0); 
+    border-left: 3px solid rgba(69,69,69,1.0); 
+    border-bottom: 6px solid rgba(69,69,69,1.0);
+    border-right: 6px solid rgba(69,69,69,1.0);
     text-align:center;
     
 }
@@ -125,10 +125,10 @@
 /* skills */
 .container2
 {
-    background-color: rgb(213, 199, 188);
+    background-color: rgba(213, 199, 188, 1.0);
     width: 75%;
     margin: 0 0 0 12.5%;
-    border: 3px solid rgb(69,69,69);
+    border: 3px solid rgba(69,69,69,1.0);
 }
 #skill
 {
@@ -208,9 +208,9 @@ ul#breadcrumb li
 .embedly-card
 {
     text-align:center;
-    background-color: rgb(213, 199, 188);
+    background-color: rgba(213, 199, 188, 1.0);
     padding:  10px 10px 8.2px 10px;
-    border: 1px solid rgb(69,69,69);
+    border: 1px solid rgba(69,69,69,1.0);
 }
 #link
 {
@@ -222,7 +222,7 @@ ul#breadcrumb li
     width: 100%;
     position:relative;
     text-align: center;
-    background-color: rgb(213, 199, 188);
+    background-color: rgba(213, 199, 188, 1.0);
    
   
 }
@@ -284,11 +284,11 @@ ul#breadcrumb li
 .card-body
 {
     background-color: rgb(147, 183, 190);
-    border: 3px solid rgb(69,69,69);
+    border: 3px solid rgba(69,69,69,1.0);
 }
 .card-header
 {
-    border: 3px solid rgb(69,69,69);
+    border: 3px solid rgba(69,69,69,1.0);
     text-align: center;
 }
 
@@ -299,7 +299,7 @@ ul#breadcrumb li
     background-color: rgb(213, 199, 188);
     width: 80%;
     margin: 0 0 0 10%;
-    border: 3px solid rgb(69,69,69);
+    border: 3px solid rgba(69,69,69,1.0);
 }
 .getInTouch
 {
@@ -335,7 +335,7 @@ ul#breadcrumb li
 /*footer*/
 .footer
 {
-    color: rgb(147, 183, 190);
+    color: rgb(35, 51, 54);
     text-align: center;
 }
 
